@@ -8,8 +8,8 @@ const CalculatorButton = (props) => {
             <div>
                 CALCULATOR
             </div>
-            <div class="calculator">
-                <div class="integerInputs"><input type="text" id="firstNum" placeholder='Num1'></input>
+            <div className="calculator">
+                <div className="integerInputs"><input type="text" id="firstNum" placeholder='Num1'></input>
                     <p id='op'>{props.operand}</p>
                     <input type="text" id="secondNum" placeholder='Num2'></input>
                 </div>
