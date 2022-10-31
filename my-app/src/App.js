@@ -75,8 +75,7 @@ function App() {
       <div>
         <Emoji />
       </div>
-
-
+      
       <div>
         <Calculator />
       </div>
